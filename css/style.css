@@ -115,3 +115,9 @@ body {
   width: 50px;
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 960px) {
+  #tech img {
+    display: none;
+  }
+}
