@@ -1,0 +1,117 @@
+body {
+  background: url(../img/bgvb.jpg) no-repeat center center/cover;
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .navbar-brand {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+/*Showcase*/
+
+#showcase .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.heading {
+  grid-area: 2 / 2 / 5 / 4;
+}
+
+#showcase {
+  color: #fff;
+  background: #333;
+  padding: 2rem;
+  position: relative;
+}
+
+#showcase p {
+  font-weight: bolder;
+}
+
+#showcase:before {
+  content: "";
+  background: url("../img/bgva.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+#showcase .showcase-content {
+  z-index: 1;
+}
+
+#showcase .showcase-content p {
+  margin-bottom: 1rem;
+}
+
+/*About*/
+
+#about {
+  color: #fff;
+  background: #333;
+  padding: 1rem;
+  position: relative;
+}
+
+#about p {
+  font-weight: bolder;
+}
+
+#about:before {
+  content: "";
+  background: url("../img/bgvc.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+#about .about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+#about .about-content p {
+  margin-bottom: 1rem;
+}
+
+#gallery {
+  flex-grow: 0;
+}
+
+#main-footer .social i {
+  color: #fff;
+  padding: 5px;
+}
+
+#tech img {
+  border-radius: 10%;
+  width: 25vw;
+  height: 50vh;
+}
+
+#collection img {
+  width: 50px;
+  border-radius: 50%;
+}
